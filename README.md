@@ -10,9 +10,9 @@ composer require maltsev/github-star-php
 
 ## Usage
 ```
-php star.php composer.json
+php vendor/maltsev/github-star-php/star.php composer.json
 # or
-GITHUB_TOKEN=xxx php star.php composer.json
+GITHUB_TOKEN=xxx php vendor/maltsev/github-star-php/star.php composer.json
 ```
 
 
