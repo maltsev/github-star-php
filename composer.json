@@ -1,0 +1,19 @@
+{
+    "name": "maltsev/github-star-php",
+    "description": "Star packages on GitHub from your composer.json",
+    "keywords": ["github", "star", "repository"],
+    "homepage": "https://github.com/maltsev/github-star-php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kirill Maltsev",
+            "email": "maltsevkirill@gmail.com",
+            "homepage": "http://kirillmaltsev.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "knplabs/github-api": "^1.5",
+        "knplabs/packagist-api": "^1.3"
+    }
+}
