@@ -4,8 +4,7 @@ The script parses dependencies from `composer.json` and stars their repositories
 
 ## Install
 ```
-cd github-star-php/
-composer install
+composer require maltsev/github-star-php
 ```
 
 
