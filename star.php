@@ -1,6 +1,14 @@
 #!/usr/bin/php
 <?php
-require_once __DIR__ . '/vendor/autoload.php';
+if (file_exists(__DIR__ . '/vendor/autoload.php')) {
+    require_once __DIR__ . '/vendor/autoload.php';
+} else if (file_exists(__DIR__ . '/../../autoload.php')) {
+    require_once __DIR__ . '/../../autoload.php';
+} else {
+    echo "Composer's autoload.php is not found\n";
+    exit(1);
+}
+
 require_once __DIR__ . '/functions.php';
 
 $composerJsonRelativePath = isset($argv[1]) ? $argv[1] : '';
